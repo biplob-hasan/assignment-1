@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
 }
 span{
     color: orange;
@@ -219,4 +220,70 @@ small{
 .community-text  p{
     color: #333333;
     padding-right: 100px;
+}
+
+.book{
+    margin-top: 100px;
+}
+
+.book h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.book-wrapper{
+   
+}
+.book-img{
+    width:70%
+}
+.book-img img{
+    width: 80%;
+    flex: 1;
+}
+.book-from{
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 2rem;
+    background: #FFEEEE;
+    box-shadow: 2px 1px 20px 2px rgba(119, 105, 80, 0.466);
+}
+.box{
+    flex: 2;
+    width: 100%;
+    margin:.7rem 0;
+    border-radius: .5rem;
+    border:1px solid orange;
+    font-size: 1.6rem;
+    color: white;
+    padding: .5rem 1rem;
+}
+.book-from .btn-red{
+    align-items: center;
+}
+.book-from h3{
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+
+/*footer area css*/
+
+footer{
+    background: black;
+    margin-top: 100px;
+    text-align: center;
+}
+footer h1{
+    color: #FFFFFF;
+    padding-top: 50px;
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+}
+footer p{
+    color: #82A5C0;
+    padding: 30px 0px 80px;
+    font-weight: 200;
 }
